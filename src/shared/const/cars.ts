@@ -1,0 +1,68 @@
+import { Car } from "@/entities/car/model/types";
+
+export const MOCK_CARS: Car[] = [
+    {
+        id: "1",
+        brand: "Mercedes-Benz",
+        model: "Maybach S 680",
+        year: 2024,
+        price: 5500000,
+        engine: "V12 Biturbo",
+        power: 612,
+        acceleration: 4.5,
+        transmission: "Automatic",
+        fuel: "Petrol",
+        bodyType: "Sedan",
+        image: "/images/maybach.png", // Placeholder
+        description: "The pinnacle of luxury and performance.",
+        features: ["Massage Seats", "Burmester 4D Sound", "Night Vision"],
+    },
+    {
+        id: "2",
+        brand: "BMW",
+        model: "M4 CSL",
+        year: 2023,
+        price: 4200000,
+        engine: "3.0L TwinPower Turbo",
+        power: 550,
+        acceleration: 3.7,
+        transmission: "Automatic",
+        fuel: "Petrol",
+        bodyType: "Coupe",
+        image: "/images/m4.png", // Placeholder
+        description: "Born for the track, legal for the road.",
+        features: ["Carbon Bucket Seats", "Laser Lights", "Titanium Exhaust"],
+    },
+    {
+        id: "3",
+        brand: "McLaren",
+        model: "GT",
+        year: 2022,
+        price: 4800000,
+        engine: "4.0L V8 Twin-Turbo",
+        power: 620,
+        acceleration: 3.2,
+        transmission: "Automatic",
+        fuel: "Petrol",
+        bodyType: "Coupe",
+        image: "/images/mclaren.png", // Placeholder
+        description: "Superlight Grand Tourer.",
+        features: ["Electrochromic Roof", "Bowers & Wilkins Audio", "Lift System"],
+    },
+    {
+        id: "4",
+        brand: "Porsche",
+        model: "911 GT3 RS",
+        year: 2024,
+        price: 6500000,
+        engine: "4.0L Flat-6",
+        power: 525,
+        acceleration: 3.2,
+        transmission: "PDK",
+        fuel: "Petrol",
+        bodyType: "Coupe",
+        image: "/images/porsche.png", // Placeholder
+        description: "Motorsport technology for the road.",
+        features: ["DRS", "Carbon Ceramic Brakes", "Weissach Package"],
+    },
+];
